@@ -1,10 +1,11 @@
-// Firebase Console > 프로젝트 설정 > 내 앱 > 웹 앱 설정 값으로 교체하세요.
+
 export const firebaseConfig = {
-  apiKey: 'REPLACE_API_KEY',
-  authDomain: 'REPLACE_PROJECT_ID.firebaseapp.com',
-  projectId: 'REPLACE_PROJECT_ID',
-  appId: 'REPLACE_APP_ID'
+  apiKey: "AIzaSyCqRs7hlq1jHl66LqEm_KiqomdHJsA3Xm4",
+  authDomain: "test001-9c035.firebaseapp.com",
+  projectId: "test001-9c035",
+  storageBucket: "test001-9c035.firebasestorage.app",
+  messagingSenderId: "593140154982",
+  appId: "1:593140154982:web:708e2d99041900c761a3a7"
 };
-// Firebase Authentication > 사용자에서 문파장 계정의 UID를 복사하세요.
-// firestore.rules의 ADMIN_UID와 똑같이 입력해야 합니다.
-export const ADMIN_UID = 'REPLACE_ADMIN_UID';
+
+export const ADMIN_UID = "REPLACE_ADMIN_UID";
