@@ -19,7 +19,7 @@
 import {initializeApp} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-app.js';
 import {getAuth,onAuthStateChanged,signInWithEmailAndPassword,createUserWithEmailAndPassword,signOut} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-auth.js';
 import {getFirestore,collection,doc,getDoc,setDoc,updateDoc,onSnapshot,serverTimestamp,query,where,getDocs} from 'https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js';
-import {firebaseConfig,ADMIN_UID} from './config.js';
+import {firebaseConfig,ADMIN_UID} from './config.js?v=20261022admin';
 const $=id=>document.getElementById(id);
 const roles={defense:'기지 방어',assault:'돌격대',special:'별동대(석상 제거)',unassigned:'미배정'};
 const colors={defense:'#7cb0ff',assault:'#fa9caa',special:'#66d6b0'};
